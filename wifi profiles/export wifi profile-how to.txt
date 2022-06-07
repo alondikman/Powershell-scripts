@@ -1,0 +1,13 @@
+netsh wlan show profiles
+
+netsh wlan export profile "profile name" key=clear folder="%UserProfile%\Desktop"
+----------------------------------------------------------------------------------------------------------------------------
+EXMPLE:
+netsh wlan export profile "Financial-Floor4" key=clear folder="%UserProfile%\Desktop"
+
+connact to wifi
+create bat file with : 
+
+Netsh WLAN add profile filename=Wi-Fi-Financial-Floor4.xml
+
+Paste XML + BAT in the same folder .
