@@ -1,8 +1,11 @@
+# show all WLAN profiles
+
 netsh wlan show profiles
 
+#Export Wlan profile to XML
 netsh wlan export profile "profile name" key=clear folder="%UserProfile%\Desktop"
 ----------------------------------------------------------------------------------------------------------------------------
-EXMPLE:
+#EXMPLE
 netsh wlan export profile "Financial-Floor4" key=clear folder="%UserProfile%\Desktop"
 
 connact to wifi
