@@ -20,6 +20,5 @@ $results = foreach ($key in (Get-ChildItem $UninstallKeys) ) {
 }
 
 $results
-Write-Output $results | puase
-
-pause
+Write-Host $results
+Read-Host -Prompt "Press Enter to exit"
